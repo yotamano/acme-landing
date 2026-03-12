@@ -1,0 +1,19 @@
+project: "Acme Landing"
+
+designers:
+  sarah:
+    zones:
+      - "src/components/**"
+      - "src/styles/**"
+    color: "#3A86FF"
+  alex:
+    zones:
+      - "src/config/**"
+      - "src/pages/**"
+    color: "#FB5607"
+
+shared:
+  - "src/types/**"
+  - "src/utils/**"
+  - "package.json"
+  - "conductor.yaml"
